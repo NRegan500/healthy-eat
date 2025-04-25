@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnHome"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/Home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btnMenu"
+        android:icon="@drawable/baseline_restaurant_menu_24"
+        android:title="@string/Menu"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btnCalCalc"
+        android:icon="@drawable/baseline_calculate_24"
+        android:title="@string/CalorieCalc"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btnAbout"
+        android:icon="@drawable/baseline_info_24"
+        android:title="@string/About"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btnFeedback"
+        android:icon="@drawable/baseline_contact_page_24"
+        android:title="@string/Feedback"
+        app:showAsAction="ifRoom" />
+    </menu>

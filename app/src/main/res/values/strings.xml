@@ -1,0 +1,89 @@
+<resources>
+    <!-- General Strings-->
+    <string name="app_name">Healthy Foods</string>
+    <string name="Home">Home</string>
+    <string name="Menu">Menu</string>
+    <string name="CalorieCalc">Cal Calculate</string>
+    <string name="About">About Page</string>
+    <string name="Feedback">Feedback</string>
+
+    <!-- Home Page Strings -->
+    <string name="company_name">Healthy Foods</string>
+    <string name="welcome_title">Welcome to Our Healthy Foods Goods</string>
+    <string name="company_intro">Our aim is to help you find healthy alternatives to usual fast foods.</string>
+    <string name="specials">Today\'s Specials</string>
+    <string name="menuCategories">Menu Categories</string>
+    <string name="menuPrompt">Ready to Explore Our Full Menu?</string>
+    <string name="menuButton">View Full Menu</string>
+    <string name="cta_title">Ready for a Healthy Meal?</string>
+    <string name="order_now">Order Now</string>
+    <string name="learnMore">Learn More</string>
+
+    <!-- Feedback Page Strings -->
+    <string name="feedbackPrompt">Type your feedback here...</string>
+    <string name="FeedbackPromptFood">What did you think about our food items?</string>
+    <string name="menuFeedbackTitle">Menu Feedback</string>
+    <string name="feedbackPromptApp">How was your experience using our app?</string>
+    <string name="feedbackAppTitle">App Feedback</string>
+    <string name="introFeedback">Share Your Thoughts</string>
+    <string name="feedbackPage">Feedback</string>
+    <string name="overallRating">Overall Rating</string>
+    <string name="thankYouPopUp">Thank you for your feedback!</string>
+    <string name="btnSubmit">Submit Feedback</string>
+
+    <!-- About Page Strings -->
+    <string name="ourMissionText">
+    Healthy Eats was born from a simple idea: nutritious food should be delicious and accessible to everyone.
+    Our team of passionate chefs and nutritionists work tirelessly to create meals that nourish your body .
+    We believe in using only the freshest, locally-sourced ingredients to craft dishes that make healthy eating a pleasure, not a chore.
+</string>
+
+    <string name="healthyEatingText">
+    As someone who struggled with health issues related to poor nutrition, our founder understands firsthand how transformative
+    a balanced diet can be. We\'re not just a restaurant - we\'re a movement dedicated to changing people\'s relationship with food.
+    Every meal we serve is designed to fuel your body, boost your energy, and support long-term wellbeing.
+    Because when you eat better, you feel better.
+</string>
+
+    <string name="companyPoliciesText">
+    • All ingredients are sourced from certified organic and sustainable farms\n
+    • We maintain complete transparency about nutritional information\n
+    • Our kitchen accommodates all major dietary restrictions\n
+    • Staff undergo regular food safety and nutrition education training\n
+    • We adhere to all FDA and local health department regulations\n
+    • Customer satisfaction and food quality are our top priorities
+</string>
+
+    <string name="contactInfoText">
+    Email: info@healthyeats.com\n
+    Phone: (555) 123-4567\n
+    Address: 123 Wellness Way, Nutrition City, NC 12345\n\n
+    Business Hours:\n
+    Monday-Friday: 7am-9pm\n
+    Saturday-Sunday: 8am-8pm
+</string>
+
+    <string name="healthyEats">Why Healthy Eating Matters</string>
+    <string name="companyPolicy">Company Policies</string>
+    <string name="contactInfo">Contact Us</string>
+    <string name="companyMission">Our Mission and Values</string>
+    <string name="aboutUsHeader">About Us</string>
+
+    <!-- Menu Page Strings -->
+    <string name="menuHeader">Our Menu</string>
+    <string name="startersHeader">Starters</string>
+    <string name="mainHeader">Main Courses</string>
+    <string name="dessertsHeader">Desserts</string>
+    <string name="drinksHeader">Drinks</string>
+    <string name="itemQuantity">Quantity</string>
+    <string name="addPrompt">How many would you like to add?</string>
+    <string name="addTracker">Add to Cal Tracker</string>
+
+    <!-- Calorie Calc Page Strings -->
+    <string name="x">x</string>
+    <string name="calCalcHeader">Calorie Calculator</string>
+    <string name="totalCals">Total Calories</string>
+    <string name="kcalTracker">0 kcal</string>
+    <string name="selectedItems">Your Selected Items</string>
+    <string name="clearItems">Clear All Items</string>
+</resources>
