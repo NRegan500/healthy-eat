@@ -86,4 +86,5 @@
     <string name="kcalTracker">0 kcal</string>
     <string name="selectedItems">Your Selected Items</string>
     <string name="clearItems">Clear All Items</string>
+    <string name="heroDescription">Generic Food Banner</string>
 </resources>
