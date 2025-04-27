@@ -41,16 +41,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="175dp"
                 android:background="@drawable/hero">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:gravity="center"
-                    android:text="@string/company_name"
-                    android:textColor="@color/dark_green"
-                    android:textSize="32sp"
-                    android:textStyle="bold" />
             </RelativeLayout>
 
             <!-- Introduction Section -->
