@@ -52,6 +52,10 @@ public class MenuActivity extends AppCompatActivity {
         setupMenuSection(R.id.mains_recycler, getMains());
         setupMenuSection(R.id.desserts_recycler, getDesserts());
         setupMenuSection(R.id.drinks_recycler, getDrinks());
+
+        // Help button setup
+        Button helpButton = findViewById(R.id.help_button);
+        helpButton.setOnClickListener(v -> showHelpDialog());
     }
 
     // Configures a RecyclerView to display a horizontal list of menu items
@@ -207,6 +211,7 @@ public class MenuActivity extends AppCompatActivity {
         }
     }
 
+
     // Shows a dialog to select quantity when adding a food item to Cal Counter
     private void showQuantityDialog(FoodItem item) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -234,4 +239,26 @@ public class MenuActivity extends AppCompatActivity {
         builder.setNegativeButton("Cancel", null);
         builder.create().show();
     }
+
+    // Shows a dialog to guide users on how to use menu and cal calc
+    private void showHelpDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("How to Use This App");
+
+        String helpMessage = "Menu Section:\n" +
+                "- Browse food items by category (Starters, Mains, Desserts, Drinks)\n" +
+                "- Tap 'Add' on any item to add it to your calorie tracker\n" +
+                "- Enter the quantity when prompted\n\n" +
+                "Calorie Calculator:\n" +
+                "- View all your tracked items in the Calorie Calculator\n" +
+                "- See the total calories of all items\n" +
+                "- Use the clear button to start over\n" +
+                "- Any Items added will save when the app is closed";
+
+        builder.setMessage(helpMessage);
+        builder.setPositiveButton("OK", null);
+        builder.create().show();
+    }
+
+
 }

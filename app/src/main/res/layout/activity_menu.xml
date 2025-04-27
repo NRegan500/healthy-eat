@@ -37,6 +37,20 @@
             android:orientation="vertical"
             android:paddingBottom="24dp">
 
+            <!-- Help Button -->
+            <Button
+                android:id="@+id/help_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/medium_green"
+                android:text="@string/helpButtonText"
+                android:textColor="@color/white"
+                tools:ignore="TextContrastCheck" />
+
             <!-- Starters Section -->
             <TextView
                 android:layout_width="match_parent"
@@ -103,7 +117,8 @@
                 android:text="@string/drinksHeader"
                 android:textColor="@color/dark_green"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/drinks_recycler"

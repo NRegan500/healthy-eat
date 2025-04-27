@@ -18,6 +18,7 @@
     <string name="cta_title">Ready for a Healthy Meal?</string>
     <string name="order_now">Order Now</string>
     <string name="learnMore">Learn More</string>
+    <string name="heroDescription">Generic Food Banner</string>
 
     <!-- Feedback Page Strings -->
     <string name="feedbackPrompt">Type your feedback here...</string>
@@ -78,6 +79,7 @@
     <string name="itemQuantity">Quantity</string>
     <string name="addPrompt">How many would you like to add?</string>
     <string name="addTracker">Add to Cal Tracker</string>
+    <string name="helpButtonText">Help</string>
 
     <!-- Calorie Calc Page Strings -->
     <string name="x">x</string>
@@ -86,5 +88,5 @@
     <string name="kcalTracker">0 kcal</string>
     <string name="selectedItems">Your Selected Items</string>
     <string name="clearItems">Clear All Items</string>
-    <string name="heroDescription">Generic Food Banner</string>
+
 </resources>
