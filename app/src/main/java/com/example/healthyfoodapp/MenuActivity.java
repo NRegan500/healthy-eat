@@ -173,6 +173,7 @@ public class MenuActivity extends AppCompatActivity {
             return new MenuItemViewHolder(view);
         }
 
+        @SuppressLint("SetTextI18n")
         @Override
         public void onBindViewHolder(@NonNull MenuItemViewHolder holder, int position) {
             // Bind data to view holder
